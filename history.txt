@@ -1,0 +1,623 @@
+    1  clear
+    2  nano count1.sh
+    3  nano count2.sh
+    4  nano count3.sh
+    5  nano count4.sh
+    6  nano count5.sh
+    7  nano count6.sh
+    8  nano count7.sh
+    9  nano count8.sh
+   10  nano count9.sh
+   11  nano count10.sh
+   12  clear
+   13  chmod +x *.sh
+   14  ./count1.sh
+   15  git add .
+   16  git commit -m "Created count scripts"
+   17  git push
+   18  nano count10.sh
+   19  git add count10.sh
+   20  git commit -m "fixes #12 changes output to TEN"
+   21  git push
+   22  git checkout -b bug1
+   23  git add .
+   24  git commit -m "Fixes #13 count1.sh to output ONE"
+   25  git push -u origin bug1
+   26  git checkout main
+   27  git pull origin main
+   28  git merge bug1
+   29  git push origin main
+   30  git branch -d bug1
+   31  git push origin --delete bug1
+   32  ls -l
+   33  ls
+   34  cd year
+   35  cd databases
+   36  cd database
+   37  clear
+   38  curl icanhazip.com
+   39  mongosh "mongodb+srv://cluster0.pxqrufq.mongodb.net/" --apiVersion 1 --username x00221717_db_user
+   40  touch lab4_mongodb.txt
+   41  nano lab4_mongodb.txt
+   42  clear
+   43  ls
+   44  nano lab4_mongodb.txt
+   45  mongosh "mongodb+srv://cluster0.pxqrufq.mongodb.net/" --apiVersion 1 --username x00221717_db_user
+   46  nano lab4_mongodb.txt
+   47  mongosh "mongodb+srv://cluster0.pxqrufq.mongodb.net/" --apiVersion 1 --username x00221717_db_user
+   48  nano lab4_mongodb.txt
+   49  cd year
+   50  cd devops
+   51  clear
+   52  git config --global user.name "Max Lis"
+   53  git config --global user.email "x00221717@myTUDublin.ie"
+   54  git clone https://github.com
+   55  https://github.com/pearse1104/X00221717.git
+   56  ls
+   57  cd year
+   58  ls
+   59  cd devops
+   60  ls
+   61  cd week4
+   62  ls
+   63  cd ..
+   64  mkdir week5
+   65  cd week5
+   66  clear
+   67  git remote -v
+   68  pwd
+   69  ls
+   70  git init
+   71  git remote add origin https://github.com/pearse1104/X00221717
+   72  git remote -v
+   73  clear
+   74  ls
+   75  git remote -v
+   76  cd ..
+   77  cd week4
+   78  ls
+   79  cd devopsProj
+   80  ls
+   81  mv count1.sh week5
+   82  cd ..
+   83  cd week5
+   84  cd ..
+   85  cd week5
+   86  ls
+   87  cd ..
+   88  cd week4
+   89  ls
+   90  cd devopsProj
+   91  ls
+   92  git init
+   93  git remote add origin https://github.com/pearse1104/X00221717
+   94  pwd
+   95  cd ..
+   96  mv week5 week5
+   97  cd devopsProj
+   98  nano week5
+   99  cd ..
+  100  cd week5
+  101  ls
+  102  nano count1.sh
+  103  ./count1.sh
+  104  chmod count1.sh +x
+  105  chmod count1.sh X+
+  106  chmod count1.sh x+
+  107  chmod ./count1.sh x+
+  108  clear
+  109  chmod x+ count1.sh
+  110  chmod +x count1.sh
+  111  ./count1.sh
+  112  nano count1.sh
+  113  ./count1.sh
+  114  mkdir v1
+  115  cd v1
+  116  git clone https://github.com/pearse1104/X00221717
+  117  git clone https://github.com/Max_Lis/devopsProj.git
+  118  git clone https://github.com/Max Lis/devopsProj.git
+  119  git clone https://github.com/Max_Lis/devopsProj.git
+  120  gh repo list
+  121  gh auth status
+  122  gh auth logout
+  123  gh auth login
+  124  gh auth status
+  125  gh repo clone Max_Lis/devopsProj
+  126  gh repo clone X00221717-WQ/devopsProj1
+  127  git config --list | grep credential
+  128  clear
+  129  git clone https://github.com/Max_Lis/devopsProj1.git
+  130  git clone https://github.com/Max_Lis/devopsProj.git
+  131  git init
+  132  git remote add origin https://github.com/Max_Lis/devopsProj.git
+  133  cd devopsProj
+  134  ls
+  135  cd Lis
+  136  ls
+  137  cd ..
+  138  mv Lis devopsProj
+  139  clear
+  140  ls
+  141  cd devopsProj
+  142  git checkout -b ONE -V1
+  143  git checkout -b count1.sh
+  144  git branch -m ONE-V1
+  145  clear
+  146  pwd
+  147  git remote -v
+  148  ls
+  149  git clone https://github.com/pearse1104/X00221717
+  150  ls
+  151  git remote -v
+  152  git add .
+  153  git rm --cached devopsProj/X00221717
+  154  cd 
+  155  cd year
+  156  cd devops
+  157  cd week5
+  158  ls
+  159  rm v1
+  160  rmdir v1
+  161  cd v1
+  162  rmdir devopsProj
+  163  cd devopsProj
+  164  l
+  165  rmdir X00221717
+  166  cd X00221717
+  167  ls
+  168  clear
+  169  ls
+  170  nano count1.sh
+  171  git add .
+  172  git commit -m "Updated count1 to ONE(1)"
+  173  git push -u origin ONE-V1
+  174  git checkout -b ONE-V1
+  175  git push -u origin ONE-V1
+  176  cd ..
+  177  mkdir v2
+  178  cd v2
+  179  git clone git clone https://github.com/pearse1104/X00221717
+  180  git clone https://github.com/pearse1104/X00221717
+  181  ls
+  182  cd X00221717
+  183  git checkout -b ONE-V2
+  184  nano count1.sh
+  185  git add .
+  186  git commit -m "Updated count1 to 1(ONE)"
+  187  git push -u origin ONE-V2
+  188  main
+  189  cd ~
+  190  cd yaer
+  191  cd year
+  192  cd devops
+  193  cd week5
+  194  mkdir mergetest
+  195  cd mergetest
+  196  git clone https://github.com/pearse1104/X00221717
+  197  cd X00221717
+  198  git checkout main
+  199  git pull
+  200  git merge origin/ONE-V1
+  201  git push origin main
+  202  git merge origin/ONE-V2
+  203  nano count1.sh
+  204  git merge origin/ONE-V2
+  205  nano count1.sh
+  206  git merge origin/ONE-V2
+  207  nano count1.sh
+  208  git merge origin/ONE-V2
+  209  nano count1.sh
+  210  git status
+  211  git add count1.sh
+  212  git commit -m "resolved merge conflict"
+  213  git push origin main
+  214  nano count2.sh
+  215  cd ..
+  216  mkdir v1-2
+  217  cd v1-2
+  218  git clone http
+  219  s://github.com/pearse1104/X00221717
+  220  git clone https://github.com/pearse1104/X00221717
+  221  cd X00221717
+  222  ls
+  223  nano count2.sh
+  224  git add .
+  225  git commit -m "Updated count2 to TWO(2)"
+  226  git push -u origin TWO-V1
+  227  git checkout -b TWO-V1
+  228  git push -u origin TWO-V1
+  229  cd .
+  230  cd ..
+  231  mkdir v2-2
+  232  cd v2-2
+  233  ithub.com/pearse1104/X00221717
+  234  cd X00221717
+  235  git checkout -b TWO-V2
+  236  git add .
+  237  git commit -m "Updated count2 to 2(TWO)"
+  238  git push -u origin TWO-V2
+  239  git branch
+  240  git push -u origin TWO-V1
+  241  git checkout -b TWO-V1
+  242  git push -u origin TWO-V1
+  243  git checkout -b TWO-V2
+  244  git checkout  TWO-V2
+  245  git push -u origin TWO-V2
+  246  git status
+  247  git log --oneline -5
+  248  git checkout TWO-V1
+  249  cat count2.sh
+  250  ls
+  251  nano cout2.sh
+  252  nano count1.sh
+  253  nano count2.sh
+  254  git add .
+  255  git push -u origin TWO-V1
+  256  git pull
+  257  git checkout TWO-V2
+  258  ls
+  259  mongosh "mongodb+srv://cluster0.pxqrufq.mongodb.net/" --apiVersion 1 --username x00221717_db_user
+  260  ipconfig
+  261  config -a
+  262  ifconfi
+  263  ifconfig
+  264  curl icanhazip.com
+  265  clear
+  266  mongosh "mongodb+srv://cluster0.pxqrufq.mongodb.net/" --apiVersion 1 --username x00221717_db_user
+  267  cd year
+  268  cd database
+  269  mongosh "mongodb+srv://cluster0.pxqrufq.mongodb.net/" --apiVersion 1 --username x00221717_db_user
+  270  ls
+  271  cd year
+  272  cd devops
+  273  gh --version
+  274  gh auth login
+  275  nano q1.sh
+  276  chmod +x q1.sh
+  277  ./q1.sh
+  278  nano q1.sh
+  279  ./q1.sh
+  280  nano q1.sh
+  281  ./q1.sh
+  282  cat q1.sh
+  283  cat -A q1.sh
+  284  sed -i 's/\r$//' q1.sh
+  285  ./q1.sh
+  286  which bash
+  287  nano q1.sh
+  288  ./q1.sh
+  289  nano q5.sh 
+  290  chmod +x q5.sh
+  291  ./q5.sh
+  292  nano q5.sh 
+  293  ./q5.sh
+  294  nano q5.sh 
+  295  ./q5.sh
+  296  nano q5.sh 
+  297  ./q5.sh
+  298  ls
+  299  cd devopslab6
+  300  git status
+  301  ls
+  302  cd ..
+  303  mv q5.sh devopslab6
+  304  cd devopslab6
+  305  ls
+  306  ./q5.sh
+  307  cat q5.sh
+  308  git checkout main
+  309  git pull
+  310  git checkout Q12345
+  311  git branch
+  312  git checkout -b Q12345
+  313  cd ..
+  314  mv q1.sh devopslab6
+  315  cd devopslab6
+  316  clear
+  317  git add .
+  318  git commit -m "Solutions for q1 and q5 the others are still pending "
+  319  git push -u origin Q12345
+  320  nano q7.sh 
+  321  chmod +x q7.sh
+  322  ./q7.sh
+  323  git branch
+  324  ./q7.sh
+  325  git push -u origin Q12345
+  326  ./q7.sh
+  327  git fetch
+  328  git branch -a
+  329  git checkout -b X00221717 origin/X00221717
+  330  git checkout -b Q12345 origin/Q12345
+  331  git branch
+  332  git log --oneline --decorate --all --graph
+  333  git checkout main
+  334  git checkout -b main
+  335  git push -u origin main
+  336  git checkout Q12345
+  337  ./q7.sh
+  338  git branch
+  339  git checkout main
+  340  ./q7.sh
+  341  git branch
+  342  git checkout Q12345
+  343  git status
+  344  git add .
+  345  git commit -m "add lab6 answer"
+  346  git push
+  347  nano q7.sh
+  348  ./q7.sh
+  349  gh pr merge Q12345 --merge
+  350  git checkout main
+  351  git add .
+  352  git commit -m "Error in commit?"
+  353  git push 
+  354  git checkout main 
+  355  git pull
+  356  nano q8.sh
+  357  git add .
+  358  git commit -m "q7 and 18 commits"
+  359  git push origin main
+  360  nano q2.sh
+  361  git add .
+  362  git commit -m "collab test"
+  363  git push
+  364  nano q4.sh
+  365  git add .
+  366  git commit -m "collab test delete"
+  367  git push
+  368  cd year
+  369  ls
+  370  cd devops
+  371  ls
+  372  cd devopslab6
+  373  gh auth status
+  374  git status
+  375  cd ..
+  376  ls#
+  377  ls
+  378  gh auth status
+  379  git status
+  380  ls
+  381  cd year
+  382  gh auth status
+  383  lis
+  384  ls
+  385  cd devops
+  386  ls
+  387  cd devopslab6
+  388  ls
+  389  cd ..
+  390  ls
+  391  cd week5
+  392  ls
+  393  git status
+  394  git add .
+  395  clear
+  396  git clone https://github.com/pearse1104/X00221717
+  397  ls
+  398  cd X00221717
+  399  ls
+  400  git clone https://github.com/pearse1104/X00221717
+  401  cd ..
+  402  mkdir CA1
+  403  cd CA1
+  404  git clone https://github.com/pearse1104/ca1-cloud
+  405  ls
+  406  cd ca1-cloud
+  407  ls
+  408  chmod +x user.sh
+  409  ./user.sh
+  410  ls
+  411  nano myID.txt
+  412  git init devopsCA1cloud
+  413  git push .
+  414  ls
+  415  git push all
+  416  git add .
+  417  ls
+  418  mv myID.txt devopsCA1cloud
+  419  ls
+  420  mv user.sh devopsCA1cloud
+  421  cd devopsCA1cloud
+  422  ls
+  423  git push myID.txt
+  424  git push --set-upsteam myID.txt main
+  425  git push --set-upstream myID.txt main
+  426  git branch
+  427  git branch -a
+  428  git switch main
+  429  git checkout -b main
+  430  ls
+  431  git add .
+  432  git commit -m "The first CA1 commit 2 new files"
+  433  git push
+  434  git push myID.txt
+  435  git push origin main
+  436  ls
+  437  git push .
+  438  git push 
+  439  git remote add myID.txt https://github.com/pearse1104/ca1-cloud
+  440  git push myID.txt
+  441  git push --set-upstream myID.txt main
+  442  cd ..
+  443  ls
+  444  cd devopsCA1cloud
+  445  gh auth status
+  446  ls
+  447  nano myID.txt
+  448  cd ..
+  449  cd week5
+  450  ls
+  451  cd X00221717
+  452  git clone https://github.com/pearse1104/X00221717
+  453  cd ..
+  454  ls
+  455  cd CA1
+  456  ls
+  457  cd ca1-cloud
+  458  ls
+  459  cd devopsCA1cloud
+  460  mv user.sh week5
+  461  cd ..
+  462  cd week5
+  463  mv user.sh X00221717
+  464  ls
+  465  cd
+  466  ls
+  467  cd year
+  468  ls
+  469  cd devops
+  470  ls
+  471  cd week5
+  472  ls
+  473  cd ..
+  474  ls
+  475  cd CA1
+  476  ls
+  477  cd ca1-cloud
+  478  ls
+  479  devopsCA1cloud
+  480  cd devopsCA1cloud
+  481  ls
+  482  mv week5 user.sh
+  483  ls
+  484  mv user.sh ca1-cloud
+  485  cd ..
+  486  ls
+  487  cd devopsCA1cloud
+  488  ls
+  489  mv ca1-cloud user.sh
+  490  clone user.sh X00221717
+  491  ls
+  492  cd year
+  493  ls
+  494  cd database
+  495  clear
+  496  ls
+  497  docker run --name redis-tutorial -p 6379:6379 -d redis:latest
+  498  docker exec -it redis-tutorial redis-cli
+  499  HGET user:1001 email
+  500  docker exec -it redis-tutorial redis-cli
+  501  cd year
+  502  cd devops
+  503  clear
+  504  mkdir week9
+  505  cd week9
+  506  git init lab9
+  507  git status
+  508  gh auth login
+  509  git status
+  510  gh auth status
+  511  git init lab9
+  512  git clone https://github.com/x00221717-wq/lab9.git week9
+  513  gh repo create --public --clone
+  514  gh repo create lab9 --public --clone
+  515  cd lab9
+  516  clear
+  517  gh label create "EPIC" --description "EPIC tracking issues" 
+  518  gh label create "EPIC" --description "EPIC tracking issues" --color "3E4B9E"
+  519  gh issue create --title "lab9" --body "Tasks for lab 9" --label "EPIC"
+  520  pwd
+  521  cd
+  522  cd year
+  523  cd devops
+  524  cd week9
+  525  ls
+  526  cd week 9
+  527  cd week9
+  528  git status
+  529  gh label create "EPIC" --description "EPIC tracking issues" --color "3E4B9E"
+  530  gh issue create --title "lab9" --body "Tasks for lab 9" --label "EPIC"
+  531  ls
+  532  nano validate-data.sh
+  533  chmod +x validate-data.sh
+  534  bash validate-data.sh "pearse mccarthy" "0831122334"
+  535  bash validate-data.sh "pearse mccarthy" "08311223344"
+  536  bash validate-data.sh "pearseT mccarthy" "08311223344"
+  537  bash validate-data.sh "pearse mccarthyy" "08311223344"
+  538  bash validate-data.sh "pearse mccarthy" "0831232234"
+  539  bash validate-data.sh "pearse mccarthy" "08312322344"
+  540  nano validate-data.sh
+  541  bash validate-data.sh "pearse mccarthy" "08312322344"#
+  542  nano validate-data.sh
+  543  bash validate-data.sh "pearse mccarthy" "08312322344"#
+  544  nano validate-data.sh
+  545  bash validate-data.sh "pearse mccarthy" "08312322344"#
+  546  nano validate-data.sh
+  547  bash validate-data.sh "pearse mccarthy" "08312322344"#
+  548  nano validate-data.sh
+  549  cat << 'EOF' > validate-data.sh
+  550  nano validate-data.sh
+  551  bash validate-data.sh "pearse mccarthy"
+  552  cat -A validate-data.sh
+  553  nano validate-data.sh
+  554  bash validate-data.sh "pearse mccarthy"
+  555  bash validate-data.sh "pearse mccarthy" "0831122334"
+  556  bash validate-data.sh "pearse mccarthy" "08311223344
+  557  bash validate-data.sh "pearse mccarthy" "08311223344"
+  558  bash validate-data.sh "pearseT mccarthy" "0831122334"
+  559  gh issues create --title "create yaml test script" --body "Add Github actions basictest.yml" --label "enhancement" --assigmnet "@x00221717-wq"
+  560  gh issue create --title "create yaml test script" --body "Add Github actions basictest.yml" --label "enhancement" --assigmnet "@x00221717-wq"
+  561  gh issue create --title "create yaml test script" --body "Add Github actions basictest.yml" --label "enhancement" --assignee "@x00221717-wq"
+  562  mkdir -p .github/workflows
+  563  ls
+  564  mkdir -p .github/workflows/
+  565  nano basictests.yaml
+  566  chmod +x basictests.yaml
+  567  git add .
+  568  git commit -m "Add validate-data.sh and Github Actions workflow"
+  569  git push -u origin main
+  570  ls -la .github/workflows/
+  571  git status
+  572  ls
+  573  git add .github/worflows/basictests.yaml validate-data.sh
+  574  git add .github/worflows/basictests.yml validate-data.sh
+  575  ls
+  576  nano basictests.yaml
+  577  mv basictests.yaml basictests.yml
+  578  ls
+  579  git add .github/worflows/basictests.yml validate-data.sh
+  580  mkdir -p .github/workflows/basictests.yml
+  581  ls
+  582  cd .github/workflows/basictests.yml
+  583  ls
+  584  cd ..
+  585  mv basictests.yml .github/workflows/basictests.yml
+  586  cd ..
+  587  git init
+  588  git branch -M main
+  589  git commit -m "Add validate-data.sh and github actions workflows"
+  590  git add .
+  591  git commit -m "Add validate-data.sh and github actions workflows"
+  592  gh repo create week9 --public --source=. --remote=origin --push
+  593  git remote remove origin
+  594  gh repo create week9 --public --source=. --remote=origin --push
+  595  ls -la
+  596  git branch -M main
+  597  git add .
+  598  git commit -m "Add validate-data.sh and github actions workflows"
+  599  git push -u origin main 
+  600  git remote remove origin
+  601  git remote add origin https://github.com/x00221717-wq/week9
+  602  git branch -M main
+  603  git push -u origin main
+  604  ls -la 
+  605  ls -la .github/workflows/
+  606  git status
+  607  git add .github/workflows/basictests.yml
+  608  git commit -m "Add validate-data.sh and github actions workflows"
+  609  git push
+  610  nano basictests.yaml
+  611  nano basictests.yml
+  612  git add .github/workflows/basictests.yml
+  613  git commit -m "Updated basictests.yml"
+  614  nano basictests.yml
+  615  gh issue create --title "create test branch and update validation" -- label "enhancement" --assignee "@x00221717-wq"
+  616  gh issue create --title "create test branch and update validation" --label "enhancement" --assignee "@x00221717-wq"
+  617  git branch -b test
+  618  git checkout -b test
+  619  sed -i 's/15/20/' validate-data.sh
+  620  git add validate-data.sh
+  621  git commit -m "Increase max name length to 20"
+  622  git push -u origin test
+  623  history > history.txt

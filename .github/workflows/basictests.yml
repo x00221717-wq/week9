@@ -23,7 +23,8 @@ jobs:
            exit 1
          fi
 
-
+     - name: Test 2 - Mobile too long (Expect Fail)
+       run: |
          output=$(bash validate-data.sh "pearse mccarthy" "08312322344")   
          echo "Script output was: $output"
          if [ "$output" = "FAIL" ]; then 
@@ -33,7 +34,8 @@ jobs:
            exit 1
          fi
 
-
+     - name: Test 2 - Mobile too long (Expect Fail)
+       run: |
         output=$(bash validate-data.sh "pearseT mccarthy" "0831232234")   
          echo "Script output was: $output"
          if [ "$output" = "FAIL" ]; then 

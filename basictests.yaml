@@ -1,0 +1,28 @@
+name: Bsic Tests
+
+on: [push]
+
+jobs:
+  lab9-basic-tests:
+   runs-on: ubuntu-latest
+   steps:
+     - name: Checkout repository 
+       uses: actions/checkout@v4
+    
+     - name: Test 1 - Valid inputs (Expect Pass)
+       run: |
+         OUTPUT=$(bash validate-data.sh "pearse maccarthy" "0831122334")
+         echo "Output: $OUTPUT"
+         [ "$OUTPUT" = "PASS" ]
+
+     - name: Test 2 - Mobile too long (Expect Fail)
+       run: |
+         OUTPUT=$(bash validate-data.sh "pearse maccarthy" "08311223344") 
+         echo "Output: $OUTPUT"
+         [ "$OUTPUT" = "FAIL" ]
+
+     - name: Test 3 - Name too long (Expect Fail)
+       run: |
+         OUTPUT=$(bash validate-data.sh "pearse maccarthyy" "0831122334") 
+         echo "Output: $OUTPUT"
+         [ "$OUTPUT" = "FAIL" ]

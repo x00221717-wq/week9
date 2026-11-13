@@ -1,0 +1,46 @@
+name: Bsic Tests
+
+on: [push]
+
+jobs:
+  lab9-basic-tests:
+   runs-on: ubuntu-latest
+   steps:
+     - name: Checkout repository 
+       uses: actions/checkout@v4
+    
+     - name: make script executable
+       run: chmod +x validate-data.sh
+
+     - name: Test 2 - Mobile too long (Expect Fail)
+       run: |
+         output=$(bash validate-data.sh "pearse mccarthy" "0831232234")
+         echo "Script output was: $output"
+         if [ "$output" = "PASS" ]; then 
+           echo "Test Passed"
+         else
+           echo "Test Failed"
+           exit 1
+         fi
+
+     - name: Test 2 - Mobile too long (Expect Fail)
+       run: |
+         output=$(bash validate-data.sh "pearse mccarthy" "08312322344")   
+         echo "Script output was: $output"
+         if [ "$output" = "FAIL" ]; then 
+           echo "Test FAILED"
+         else
+           echo "Test Passed"
+           exit 1
+         fi
+
+     - name: Test 2 - Mobile too long (Expect Fail)
+       run: |
+        output=$(bash validate-data.sh "pearseT mccarthy" "0831232234")   
+         echo "Script output was: $output"
+         if [ "$output" = "FAIL" ]; then 
+           echo "Test Failed"
+         else
+           echo "Test Passed"
+           exit 1
+         fi
